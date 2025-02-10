@@ -1,9 +1,10 @@
-## Инструменты
+## Установить перед развертыванием
 - Git https://git-scm.com/downloads
 - Node.js https://nodejs.org/en/download
 - VSCode https://code.visualstudio.com/download
 
 ## Порядок действий
+###В терминале VSCode:
 
 1. Проверка установки git
 ```
