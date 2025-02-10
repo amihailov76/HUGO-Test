@@ -4,7 +4,7 @@
 - VSCode https://code.visualstudio.com/download
 
 ## Порядок действий
-###В терминале VSCode:
+##В терминале VSCode:
 
 1. Проверка установки git
 ```
