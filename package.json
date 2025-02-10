@@ -1,0 +1,30 @@
+{
+  "name": "my-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "otherDependencies": {
+    "hugo": "0.123.7"
+  },
+  "scripts": {
+    "postinstall": "hugo-installer --version otherDependencies.hugo",
+    "build": "exec-bin bin/hugo/hugo",
+    "server": "exec-bin bin/hugo/hugo server",
+    "server-full-rebuild": "exec-bin bin/hugo/hugo server --disableFastRender"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "autoprefixer": "^10.4.17",
+    "exec-bin": "^1.0.0",
+    "hugo-installer": "^4.0.1",
+    "postcss": "^8.4.35",
+    "postcss-cli": "^11.0.0",
+    "postcss-import": "^16.0.1",
+    "tailwindcss": "^3.4.1",
+    "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e"
+  }
+}

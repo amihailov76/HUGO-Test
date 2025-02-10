@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+  {{- partial "head.html" . -}}
+  <body dir="{{ .Site.Language.LanguageDirection | default `ltr` }}">
+    {{- partial "navbar.html" . -}}
+    {{- block "main" . }}{{ end -}}
+  </body>
+  {{ partial "scripts.html" . }}
+</html>

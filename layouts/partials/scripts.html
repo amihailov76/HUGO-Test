@@ -1,0 +1,9 @@
+{{- $jsTheme := resources.Get "js/theme.js" | resources.ExecuteAsTemplate "theme.js" . -}}
+{{- $jsSidebar := resources.Get "js/sidebar.js" -}}
+
+{{- $scripts := slice $jsTheme $jsSidebar | resources.Concat "js/main.js" -}}
+{{- if hugo.IsProduction -}}
+  {{- $scripts = $scripts | minify | fingerprint -}}
+{{- end -}}
+<script defer src="{{ $scripts.RelPermalink }}" integrity="{{ $scripts.Data.Integrity }}"></script>
+
