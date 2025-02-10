@@ -17,12 +17,12 @@ node -v
 
 3. Клонирование git репозитория
 ```
-git clone https://github.com/arduanov/hugo-site.git
+git clone https://github.com/amihailov76/HUGO-Test
 ```
 
 4. Переход в директорию проекта
 ```
-cd hugo-site
+cd HUGO-Test
 ```
 
 5. Установка npm зависимостей
@@ -63,7 +63,7 @@ Test content.
 - добавить в файл `config/_default/menus.yaml`
 ```
   - name: Example
-    url: https://github.com/arduanov/hugo-site
+    url: https://github.com/amihailov76/HUGO-Test
     weight: 6
 ```
 
