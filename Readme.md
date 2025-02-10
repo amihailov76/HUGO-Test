@@ -4,7 +4,7 @@
 - VSCode https://code.visualstudio.com/download
 
 ## Порядок действий
-##В терминале VSCode:
+В терминале VSCode:
 
 1. Проверка установки git
 ```
@@ -20,6 +20,7 @@ node -v
 ```
 git clone https://github.com/amihailov76/HUGO-Test
 ```
+![image](https://github.com/user-attachments/assets/50612f33-d398-432d-8268-40b20082aba6)
 
 4. Переход в директорию проекта
 ```
